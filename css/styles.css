@@ -7,20 +7,18 @@
   --secondary-title-color: #f4f4fd;
   --secondary-text-color: #e7e9fc;
 }
-/* колір основного тектсу #434455 */
-/* колір заголовків #2E2F42 */
-/* білий #ffffff */
-/* акцент #4D5AE5 */
-/* другорядний #E7E9FC */
-/* колір лого #F4F4FD */
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--primiry-text-color);
 }
 .link {
   text-decoration: none;
 }
 .list {
   list-style: none;
+}
+.site-nav .link.current {
+  color: var(--accent-color);
 }
 
 /* header */
@@ -64,7 +62,7 @@ body {
   color: var(--primiry-text-color);
 }
 .auth-nav a:hover,
-.auth-nav:focus {
+.auth-nav a:focus {
   color: var(--accent-color);
 }
 .auth-nav a:active {
@@ -94,6 +92,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--white-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* Why us section */
@@ -104,7 +103,6 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -202,4 +200,63 @@ body {
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+}
+
+/* portfolio */
+
+.portfolio-btn.main {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.portfolio-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+  background-color: var(--secondary-title-color);
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.portfolio h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.portfolio p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--primiry-text-color);
 }
