@@ -8,7 +8,7 @@
   --secondary-text-color: #e7e9fc;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--primiry-text-color);
 }
 .link {
@@ -24,20 +24,19 @@ body {
 /* header */
 
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: calc(21 / 18);
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--accent-color);
-}
-.logo span {
   color: var(--title-text-color);
 }
-.site-nav a {
-  font-family: "Roboto";
+.logo .logo-purple {
+  color: var(--accent-color);
+}
+.site-nav-link {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -45,15 +44,15 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
   color: var(--accent-color);
 }
-.site-nav a:active {
+.site-nav-link:active {
   color: var(--accent-color);
 }
-.auth-nav a {
-  font-family: "Roboto";
+.auth-nav-link {
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -61,11 +60,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--primiry-text-color);
 }
-.auth-nav a:hover,
-.auth-nav a:focus {
+.auth-nav-link:hover,
+.auth-nav-link:focus {
   color: var(--accent-color);
 }
-.auth-nav a:active {
+.auth-nav-link:active {
   color: var(--accent-color);
 }
 
@@ -74,7 +73,6 @@ body {
   background-color: var(--title-text-color);
 }
 .hero-title {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
   font-size: 56px;
@@ -84,7 +82,6 @@ body {
   color: var(--white-color);
 }
 .hero-btn {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -109,7 +106,6 @@ body {
   overflow: hidden;
 }
 .skills-title {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -118,7 +114,6 @@ body {
   color: var(--title-text-color);
 }
 .skills-text {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -129,7 +124,6 @@ body {
 
 /* About section */
 .about-title {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -144,7 +138,6 @@ body {
   background-color: var(--secondary-title-color);
 }
 .team-title {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -157,7 +150,6 @@ body {
   background-color: var(--white-color);
 }
 .team-person-title {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -166,7 +158,6 @@ body {
   color: var(--title-text-color);
 }
 .team-person-text {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -180,7 +171,7 @@ body {
   background-color: var(--title-text-color);
 }
 .logo-footer {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -189,11 +180,10 @@ body {
   text-transform: uppercase;
   color: var(--secondary-title-color);
 }
-.logo-footer span {
+.logo-footer .logo-purple {
   color: var(--accent-color);
 }
 .footer-text {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -205,7 +195,7 @@ body {
 /* portfolio */
 
 .portfolio-btn.main {
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -217,7 +207,7 @@ body {
   background-color: var(--accent-color);
 }
 .portfolio-btn {
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -231,7 +221,7 @@ body {
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -242,8 +232,7 @@ body {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
-.portfolio h1 {
-  font-family: "Roboto";
+.portfolio .portfolio-title {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -251,8 +240,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
-.portfolio p {
-  font-family: "Roboto";
+.portfolio .portfolio-text {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
